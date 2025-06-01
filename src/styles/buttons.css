@@ -1,0 +1,45 @@
+a.button.button {
+  font-weight: 400;
+  border-radius: 6px;
+  padding: 18px 32px 17px 32px;
+}
+
+a.button-img.button-img {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+
+  span {
+    padding: 18px 32px 17px 32px;
+    border: 1px solid #afd9e1;
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+  }
+
+  img {
+    border-radius: 0 6px 6px 0;
+  }
+}
+
+.cta-primary {
+  background: #afd9e1;
+  color: #000000;
+}
+
+.cta-secondary {
+  color: #ffffff;
+  background-color: #0a5670;
+  border: 1px solid #afd9e1;
+}
+
+.cta-primary-inverse {
+  background: #0a5670;
+  color: #ffffff;
+}
+
+.cta-secondary-inverse {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #0a5670;
+}

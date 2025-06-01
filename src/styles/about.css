@@ -1,0 +1,66 @@
+body.about {
+  min-height: 1500px;
+
+  .name-link {
+    color: #000000;
+  }
+
+  .linkedin-logo {
+    margin-left: 1.5rem;
+    vertical-align: bottom;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .card {
+    width: calc(50% - 30px);
+    border-top: 1px solid #e9e9e9;
+
+    h2 {
+      font-size: 24px;
+      letter-spacing: -0.03em;
+      font-weight: 400;
+    }
+  }
+
+  .card-image {
+    max-width: calc(50% - 20px);
+  }
+
+  .card-details {
+    display: flex;
+    gap: 20px;
+
+    article {
+      max-width: calc(50% - 20px);
+
+      p {
+        word-wrap: break-word;
+        margin-bottom: 1.5em;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 150%;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .image-placeholder {
+    background-color: #e9e9e9;
+    border: 1px dashed #000000;
+    width: 50%;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      margin: auto;
+      color: #595959;
+    }
+  }
+}

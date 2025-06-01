@@ -1,0 +1,33 @@
+body.what {
+  .testimonials {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    .testimonial:first-child {
+      min-width: 420px;
+    }
+  }
+
+  .content {
+    display: flex;
+    gap: 30px;
+
+    article {
+      flex: 1;
+      font-size: 20px;
+      line-height: 150%;
+    }
+
+    p {
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .cta-container {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin: auto;
+  }
+}

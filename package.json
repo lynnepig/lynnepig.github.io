@@ -1,0 +1,20 @@
+{
+  "name": "aftertheelection",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx index.ts",
+    "biome": "biome check",
+    "biome:fix": "biome check --fix"
+  },
+  "type": "module",
+  "author": "Adam Ayres",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.15.26",
+    "lightningcss": "^1.30.1",
+    "tsx": "^4.19.4"
+  }
+}

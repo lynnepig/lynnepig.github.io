@@ -1,0 +1,37 @@
+header {
+  background-color: #0a5670;
+}
+
+.home-link {
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+nav {
+  color: #ffffff;
+  padding: 42px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    padding: 16px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .button {
+    border: 1px solid #afd9e1;
+  }
+}

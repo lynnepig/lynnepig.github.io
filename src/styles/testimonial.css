@@ -1,0 +1,27 @@
+.testimonial {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 50px;
+  border-radius: 20px;
+
+  .title {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0;
+    padding: 0 0 51px 0;
+    margin: 0;
+    text-indent: -1rem;
+  }
+
+  .author {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+  }
+
+  .location {
+    font-size: 13px;
+    color: #51afbc;
+    margin: 0;
+  }
+}
