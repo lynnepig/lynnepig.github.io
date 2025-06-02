@@ -12,9 +12,15 @@ a.button-img.button-img {
 
   span {
     padding: 18px 32px 17px 32px;
-    border: 1px solid #afd9e1;
+    border: 1px solid var(--secondary-color);
     border-radius: 6px 0 0 6px;
     border-right: none;
+
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: var(--primary-color-darker);
+    }
   }
 
   img {
@@ -23,23 +29,49 @@ a.button-img.button-img {
 }
 
 .cta-primary {
-  background: #afd9e1;
-  color: #000000;
+  background: var(--secondary-color);
+  color: var(--black);
+
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background: var(--tertiary-color);
+    color: var(--white);
+  }
 }
 
-.cta-secondary {
-  color: #ffffff;
-  background-color: #0a5670;
-  border: 1px solid #afd9e1;
+.cta-secondary.cta-secondary {
+  color: var(--white);
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: var(--primary-color-darker);
+    color: var(--white);
+  }
 }
 
 .cta-primary-inverse {
-  background: #0a5670;
-  color: #ffffff;
+  background: var(--primary-color);
+  color: var(--white);
+
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: var(--tertiary-color);
+  }
 }
 
 .cta-secondary-inverse {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #0a5670;
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background: var(--light-grey);
+  }
 }

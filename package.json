@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsx index.ts",
     "biome": "biome check",
-    "biome:fix": "biome check --fix"
+    "biome:fix": "biome check --fix",
+    "build": "tsx build.ts"
   },
   "type": "module",
   "author": "Adam Ayres",

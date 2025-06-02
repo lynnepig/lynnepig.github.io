@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
-import { bundle, transform } from 'lightningcss';
+import { bundle } from 'lightningcss';
 
 const hostname = '127.0.0.1';
 const port = 3000;

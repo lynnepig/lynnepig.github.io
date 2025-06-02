@@ -4,7 +4,7 @@ body.oaq {
     gap: 30px;
 
     article {
-      flex: 1;
+      flex-basis: 50%;
       font-size: 20px;
       line-height: 150%;
 
@@ -14,8 +14,19 @@ body.oaq {
     }
   }
 
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .ladder-image {
+      display: none;
+    }
+  }
+
   details {
-    background: #afd9e166;
+    background: var(--secondary-color-66);
     margin-bottom: 10px;
     padding: 20px 30px;
 
@@ -25,16 +36,18 @@ body.oaq {
       font-weight: 700;
       font-size: 20px;
       line-height: 150%;
+      display: flex;
+      justify-content: space-between;
     }
 
-    summary::after {
+    summary .toggle::after {
       content: "＋";
       float: right;
       font-weight: 400;
     }
   }
 
-  details[open] summary:after {
+  details[open] .toggle::after {
     content: "－";
   }
 
@@ -43,7 +56,12 @@ body.oaq {
   }
 
   details p {
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--editorial-font);
     line-height: 150%;
+    margin-bottom: 1.5em;
+  }
+
+  details p:last-child {
+    margin-bottom: 0;
   }
 }

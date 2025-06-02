@@ -1,11 +1,11 @@
 .testimonial {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--white);
+  color: var(--black);
   padding: 50px;
   border-radius: 20px;
 
   .title {
-    font-family: "Times New Roman", Times, serif;
+    font-family: var(--editorial-font);
     font-size: 28px;
     line-height: 150%;
     letter-spacing: 0;
@@ -21,7 +21,7 @@
 
   .location {
     font-size: 13px;
-    color: #51afbc;
+    color: var(--dark-grey);
     margin: 0;
   }
 }

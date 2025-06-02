@@ -1,5 +1,5 @@
 body.home {
-  background-color: #0a5670;
+  background-color: var(--primary-color);
 
   .testimonial {
     max-width: 638px;
@@ -16,7 +16,7 @@ body.home {
 
     p {
       font-size: 32px;
-      color: #ffffff;
+      color: var(--white);
       text-align: center;
       line-height: 150%;
       margin-bottom: 30px;
@@ -27,7 +27,14 @@ body.home {
       gap: 30px;
       max-width: 638px;
       justify-content: center;
-      margin: auto;
+      margin: auto auto 50px auto;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .cta-container {
+      flex-direction: column;
+      align-items: center;
     }
   }
 }

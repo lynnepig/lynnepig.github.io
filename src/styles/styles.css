@@ -1,4 +1,8 @@
+/* reset */
 @import "reset.css";
+
+/* variables */
+@import "_variables.css";
 
 /* base */
 @import "typography.css";

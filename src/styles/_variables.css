@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #0a5670;
+  --primary-color-darker: #084d65;
+  --secondary-color: #afd9e1;
+  --tertiary-color: #51afbc;
+  --secondary-color-66: #afd9e166;
+  --white: #ffffff;
+  --black: #000000;
+  --black-26: #00000026;
+  --light-grey: #e9e9e9;
+  --dark-grey: #595959;
+
+  --editorial-font: "Times New Roman", Times, serif;
+}

@@ -1,5 +1,5 @@
 header {
-  background-color: #0a5670;
+  background-color: var(--primary-color);
 }
 
 .home-link {
@@ -8,15 +8,42 @@ header {
   letter-spacing: -0.05em;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: var(--white);
+
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
 }
 
 nav {
-  color: #ffffff;
+  color: var(--white);
   padding: 42px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1200px) {
+    .email-link {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  nav {
+    flex-wrap: wrap;
+    padding-bottom: 0;
+
+    .nav-links {
+      padding-top: 20px;
+      flex-basis: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+    }
+  }
 }
 
 .nav-links {
@@ -24,14 +51,24 @@ nav {
   align-items: center;
   gap: 30px;
 
+  .active {
+    text-decoration: underline;
+  }
+
   a {
     padding: 16px 0;
-    color: #ffffff;
+    color: var(--white);
     font-size: 16px;
     font-weight: 700;
+
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--secondary-color);
+    }
   }
 
   .button {
-    border: 1px solid #afd9e1;
+    border: 1px solid var(--secondary-color);
   }
 }

@@ -54,9 +54,17 @@ h1 {
 }
 
 .quote-shadow {
-  box-shadow: -5px 5px 20px 0 #00000026;
+  box-shadow: -5px 5px 20px 0 var(--black-26);
 }
 
 .underline {
   text-decoration: underline;
+}
+
+.page-link {
+  color: var(--primary-color);
+}
+
+.responsive-image {
+  width: 100%;
 }
