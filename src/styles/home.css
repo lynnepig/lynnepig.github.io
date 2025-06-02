@@ -37,4 +37,10 @@ body.home {
       align-items: center;
     }
   }
+
+  @media (max-width: 420px) {
+    .last-name {
+      display: none;
+    }
+  }
 }

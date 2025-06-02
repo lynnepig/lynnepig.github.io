@@ -9,12 +9,18 @@ a.button-img.button-img {
   display: flex;
   align-items: center;
   border: none;
+  max-width: 100%;
 
-  span {
+  .button-text {
     padding: 18px 32px 17px 32px;
     border: 1px solid var(--secondary-color);
     border-radius: 6px 0 0 6px;
     border-right: none;
+
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     transition: background-color 0.2s ease;
 
