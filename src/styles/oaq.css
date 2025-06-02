@@ -38,6 +38,7 @@ body.oaq {
       line-height: 150%;
       display: flex;
       justify-content: space-between;
+      gap: 10px;
     }
 
     summary .toggle::after {
