@@ -42,7 +42,6 @@ a.button-img.button-img {
 
   &:hover {
     background: var(--tertiary-color);
-    color: var(--white);
   }
 }
 

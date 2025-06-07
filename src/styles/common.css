@@ -57,6 +57,10 @@ h1 {
   box-shadow: -5px 5px 20px 0 var(--black-26);
 }
 
+.quote-shadow-dark {
+  box-shadow: -5px 5px 20px 0 var(--black-80);
+}
+
 .underline {
   text-decoration: underline;
 }
