@@ -72,3 +72,22 @@ h1 {
 .responsive-image {
   width: 100%;
 }
+
+@media (max-width: 576px) {
+  body {
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 25px 0;
+  }
+
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}

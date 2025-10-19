@@ -17,6 +17,18 @@ header {
   }
 }
 
+@media (max-width: 576px) {
+  .home-link {
+    font-size: 36px;
+    line-height: 120%;
+  }
+
+  .nav-links {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--tertiary-color);
+  }
+}
+
 nav {
   color: var(--white);
   padding: 42px 0;

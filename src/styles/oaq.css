@@ -14,17 +14,6 @@ body.oaq {
     }
   }
 
-  @media (max-width: 800px) {
-    .content {
-      flex-direction: column;
-      gap: 0;
-    }
-
-    .ladder-image {
-      display: none;
-    }
-  }
-
   details {
     background: var(--secondary-color-66);
     margin-bottom: 10px;
@@ -64,5 +53,37 @@ body.oaq {
 
   details p:last-child {
     margin-bottom: 0;
+  }
+
+  @media (max-width: 800px) {
+    .content {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .ladder-image {
+      display: none;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .content {
+      article {
+        font-size: 16px;
+
+        p {
+          margin-bottom: 25px;
+        }
+      }
+
+      .oaq-container {
+        margin: 0 -1rem;
+      }
+    }
+
+    details {
+      background: var(--secondary-color);
+      color: var(--black);
+    }
   }
 }

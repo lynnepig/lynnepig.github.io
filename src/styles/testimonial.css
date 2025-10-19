@@ -25,3 +25,19 @@
     margin: 0;
   }
 }
+
+@media (max-width: 576px) {
+  .testimonial {
+    padding: 35px;
+
+    .title.title.title {
+      text-indent: -0.5rem;
+      font-size: 20px;
+      padding-bottom: 30px;
+    }
+
+    .author {
+      font-size: 16px;
+    }
+  }
+}

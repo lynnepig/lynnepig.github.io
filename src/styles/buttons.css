@@ -80,3 +80,20 @@ a.button-img.button-img {
     background: var(--light-grey);
   }
 }
+
+@media (max-width: 576px) {
+  .cta-primary-inverse {
+    background: var(--secondary-color);
+    color: var(--black);
+  }
+
+  .cta-secondary-inverse {
+    background: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--secondary-color);
+
+    &:hover {
+      background: var(--primary-color-darker);
+    }
+  }
+}

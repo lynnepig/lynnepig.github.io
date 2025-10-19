@@ -28,6 +28,10 @@ body.about {
     }
   }
 
+  .second-header {
+    display: none;
+  }
+
   .card-image {
     max-width: calc(50% - 10px);
   }
@@ -86,6 +90,48 @@ body.about {
       .card-image,
       article {
         max-width: 100%;
+      }
+    }
+  }
+
+  @media (max-width: 576px) {
+    .card {
+      border: 0;
+    }
+
+    .linkedin-logo {
+      display: none;
+    }
+
+    a .underline {
+      text-decoration: none;
+      color: var(--white);
+    }
+
+    .first-header {
+      display: none;
+    }
+
+    .second-header.second-header {
+      display: block;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .card.card p {
+      font-size: 16px;
+    }
+
+    .page-link {
+      color: var(--secondary-color);
+      text-decoration: underline;
+    }
+
+    .content {
+      gap: 0;
+
+      p:last-child {
+        margin-bottom: 0;
       }
     }
   }
