@@ -80,7 +80,7 @@ const server = http.createServer(async (req, res) => {
   }
   if (req.url === '/' || req.url === '') {
     returnFile('index.html');
-  } else if (req.url === '/styles/styles.css') {
+  } else if (req.url?.startsWith('/styles/styles.css')) {
     const { code } = bundle({
       filename: 'src/styles/styles.css',
       minify: true
